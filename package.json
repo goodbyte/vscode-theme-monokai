@@ -1,0 +1,63 @@
+{
+  "name": "uy-monokai-theme",
+  "displayName": "Monokai Modern",
+  "description": "Monokai Color Theme",
+  "publisher": "goodbyte",
+  "license": "MIT",
+  "author": {
+    "name": "José Guerra"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goodbyte/vscode-theme-monokai"
+  },
+  "bugs": {
+    "url": "https://github.com/goodbyte/vscode-theme-monokai/issues"
+  },
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "icon": "images/logo_250x250.png",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "goodbyte",
+    "Uruguay",
+    "Dark",
+    "Modern",
+    "Monokai",
+    "Javascript",
+    "Typescript"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Monokai Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai/dark.json"
+      },
+      {
+        "label": "Monokai Modern",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai/modern.json"
+      },
+      {
+        "label": "Monokai 2",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai-2/default.json"
+      },
+      {
+        "label": "Monokai 2 Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai-2/dark.json"
+      },
+      {
+        "label": "Monokai 2 Modern",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokai-2/modern.json"
+      }
+    ]
+  }
+}
