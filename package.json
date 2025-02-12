@@ -5,7 +5,7 @@
   "publisher": "goodbyte",
   "license": "MIT",
   "author": {
-    "name": "José Guerra"
+    "name": "goodbyte"
   },
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/goodbyte/vscode-theme-monokai/issues"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.96.0"
   },
@@ -34,29 +34,19 @@
   "contributes": {
     "themes": [
       {
-        "label": "Monokai Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/monokai/dark.json"
-      },
-      {
-        "label": "Monokai Modern",
-        "uiTheme": "vs-dark",
-        "path": "./themes/monokai/modern.json"
-      },
-      {
         "label": "Monokai 2",
         "uiTheme": "vs-dark",
-        "path": "./themes/monokai-2/default.json"
+        "path": "./themes/default.json"
       },
       {
         "label": "Monokai 2 Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/monokai-2/dark.json"
+        "path": "./themes/dark.json"
       },
       {
         "label": "Monokai 2 Modern",
         "uiTheme": "vs-dark",
-        "path": "./themes/monokai-2/modern.json"
+        "path": "./themes/modern.json"
       }
     ]
   }

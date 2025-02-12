@@ -50,14 +50,13 @@
     {
       "scope": "comment",
       "settings": {
-        "foreground": "#898989"
+        "foreground": "#5C6370"
       }
     },
     {
       "scope": "invalid",
       "settings": {
-        "foreground": "#F44747",
-        "fontStyle": "strikethrough"
+        "foreground": "#F44747"
       }
     },
     {
